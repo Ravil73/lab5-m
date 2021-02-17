@@ -4,7 +4,7 @@ import csv
 
 def read_csv_file(list):
     """
-    Считывает элементы в data.csv и записывает все данные в лист data
+    читывает элементы в data.csv и записывает все данные в лист data
     :param list лист объектов
     """
     with open("data.csv", "r") as cf:
